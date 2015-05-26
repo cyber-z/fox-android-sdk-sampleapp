@@ -65,9 +65,9 @@ public class MainActivity extends Activity {
 				 * 下記、引数200は例です。
 				 */
 				ltv.addParam(LtvManager.URL_PARAM_PRICE, "10");
-                ltv.addParam(LtvManager.URL_PARAM_CURRENCY, "USD");
-                ltv.sendLtvConversion(200);
-                AnalyticsManager.sendEvent(MainActivity.this,"アイテム課金", null, null, "12345", "", "GAME_ITEM", 10, 1, "USD");
+                		ltv.addParam(LtvManager.URL_PARAM_CURRENCY, "USD");
+                		ltv.sendLtvConversion(200);
+                		AnalyticsManager.sendEvent(MainActivity.this,"アイテム課金", null, null, "12345", "", "GAME_ITEM", 10, 1, "USD");
 			}
 		});
 	}
