@@ -11,6 +11,11 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 
+/**
+ * FoxAndroidSample
+ * @author T.Hiraga
+ * Copyright (c) 2015 CyberZ,Inc All Rights reserved.
+ */
 public class MainActivity extends Activity {
 	
 	@Override
